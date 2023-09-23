@@ -1,7 +1,5 @@
 # TFRRS Data Scraper for Lehigh University Track & Field
 
-![Lehigh Track & Field](lehigh_track_field_image.png)
-
 ## Overview
 
 Welcome to the TFRRS Data Scraper project for Lehigh University Track & Field! This Python program is designed to scrape raw data from [TFRRS.org](https://www.tfrrs.org) regarding track and field performance metrics of Lehigh University's track team. It then organizes this data by creating a folder hierarchy where each athlete has their own directory. The collected data is used to generate performance graphs over time for each athlete's events.
@@ -16,12 +14,14 @@ Welcome to the TFRRS Data Scraper project for Lehigh University Track & Field! T
 1. Clone this repository to your local machine:
 
    ```shell
-   git clone https://github.com/yourusername/tfrrs-scraper-lehigh.git
+   git clone https://github.com/yourusername/TFRRS_data.git
 Navigate to the project directory:
-    cd tfrrs-scraper-lehigh
+    ```shell 
+    cd TFRRS_data
 Install the required Python libraries:
+    ```shell 
     pip install -r requirements.txt
-```
+
 ### Usage
 To use the TFRRS Data Scraper, follow these steps:
 
@@ -29,29 +29,14 @@ Configure the scraper with the desired settings in config.py.
 
 Run the scraper:
 
-```shell
-python scraper.py
+    ```shell
+    python3 <respective .py file>
+    ```
 The program will start scraping data from TFRRS.org and organize it in athlete-specific directories.
-```
+
 Once the scraping is complete, use the data for analysis or generate performance graphs using your preferred data visualization tools.
 
 ### Folder Hierarchy
-The data collected by the scraper is organized in the following folder hierarchy:
-
-tfrrs-scraper-lehigh/
-│
-├── data/
-│   ├── athlete1/
-│   │   ├── event1.csv
-│   │   ├── event2.csv
-│   │   └── ...
-│   ├── athlete2/
-│   │   ├── event1.csv
-│   │   ├── event2.csv
-│   │   └── ...
-│   ├── ...
-│
-└── ...
 Each athlete's data is stored in a separate directory under the data folder, with individual CSV files for each event they have participated in.
 
 ### Contributions
