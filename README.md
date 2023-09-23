@@ -15,10 +15,8 @@ To use the TFRRS Data Scraper, follow these steps:
 Configure the scraper with the desired settings in config.py.
 
 Run the scraper:
-
-    ```shell
+    ```shell 
     python3 <respective .py file>
-    ```
 The program will start scraping data from TFRRS.org and organize it in athlete-specific directories.
 
 Once the scraping is complete, use the data for analysis or generate performance graphs using your preferred data visualization tools.
