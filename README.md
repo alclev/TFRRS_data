@@ -9,19 +9,6 @@ Welcome to the TFRRS Data Scraper project for Lehigh University Track & Field! T
 - Python 3.x installed on your system.
 - Basic knowledge of Python and web scraping.
 
-### Installation
-
-1. Clone this repository to your local machine:
-
-   ```shell
-   git clone https://github.com/yourusername/TFRRS_data.git
-Navigate to the project directory:
-    ```shell 
-    cd TFRRS_data
-Install the required Python libraries:
-    ```shell 
-    pip install -r requirements.txt
-
 ### Usage
 To use the TFRRS Data Scraper, follow these steps:
 
@@ -42,17 +29,17 @@ Each athlete's data is stored in a separate directory under the data folder, wit
 ### Contributions
 Contributions to this project are welcome. If you'd like to contribute:
 
-Fork the repository.
-Create a feature branch.
-Make your changes and document them.
-Test your changes thoroughly.
-Submit a pull request for review.
+- Fork the repository.
+- Create a feature branch.
+- Make your changes and document them.
+- Test your changes thoroughly.
+- Submit a pull request for review.
 
 
 ### Contact
 If you have any questions, suggestions, or issues regarding the TFRRS Data Scraper for Lehigh University Track & Field project, please feel free to contact the author:
 
-Author: Alex Clevenger
-Email: alexbclevenger@gmail.com 
-GitHub: https://github.com/alclev
+- Author: Alex Clevenger
+- Email: alexbclevenger@gmail.com 
+- GitHub: https://github.com/alclev
 Thank you for using the TFRRS Data Scraper for your track and field performance analysis needs!
